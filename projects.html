@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Robert Pitu — engineering projects." />
+  <title>Projects — Robert Pitu</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">Robert Pitu</a>
+    <nav aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="projects.html">Projects</a>
+      <a href="index.html#about">About</a>
+      <a href="assets/cv.pdf">CV</a>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Engineering</p>
+      <h1>Selected projects.</h1>
+      <p>
+        Hands-on engineering work across augmented reality, spacecraft systems,
+        instrumentation, computer vision, and experimental hardware.
+      </p>
+    </section>
+
+    <section class="section">
+      <div class="projects-list">
+
+        <article class="project">
+          <div class="project-info">
+            <p class="meta">NASA/JPL Internship 2025</p>
+            <h2>E-SPARK V1</h2>
+
+            <p class="project-description">
+              A demonstrational Hall-Effect Thruster built in 10 weeks as an intern at NASA's Jet Propulsion Laboratory.
+            </p>
+
+            <ul class="project-points">
+              <li>Used scaling laws and first-principles to get initial dimensions.</li>
+              <li>Fabricated the thruster and integrated it into a portable testbed.</li>
+              <li>Measured discharge characteristics and performance metrics.</li>
+              <li>Published and presented my work at SmallSat 2026 (Request paper).</li>
+            </ul>
+          </div>
+
+          <div class="project-gallery">
+            <div class="project-image project-image-large placeholder"><img src="assets/espark-v1-1.jpg" alt="Image1"></div>
+            <div class="project-image placeholder"><img src="assets/espark-v1-2.jpg" alt="Image2"></div>
+            <div class="project-image placeholder"><img src="assets/espark-v1-3.jpg" alt="Image3"></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-info">
+            <p class="meta">NASA/JPL Internship 2026</p>
+            <h2>E-SPARK V2</h2>
+
+            <p class="project-description">
+              A Magnetically-Shielded, improved Hall-Effect Thruster built in 6 weeks at NASA's Jet Propulsion Laboratory.
+            </p>
+
+            <ul class="project-points">
+              <li>Still unpublished.</li>
+              <li>200W class for argon and krypton propellants, targeting approximately 2–3× the efficiency of the V1 design.</li>
+              <li>Designed and integrated a custom filament cathode for electron emission.</li>
+              <li>Designed the magnetic circuit using Ansys Maxwell.</li>
+              <li>Performed thermal modeling and analysis using Ansys.</li>            </ul>
+          </div>
+
+          <div class="project-gallery">
+            <div class="project-image project-image-large placeholder"><img src="assets/espark-v2-1.jpg" alt="Image1"></div>
+            <div class="project-image placeholder"><img src="assets/espark-v2-2.jpg" alt="Image2"></div>
+            <div class="project-image placeholder"><img src="assets/espark-v2-3.jpg" alt="Image3"></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-info">
+            <p class="meta">UChicago Space Program</p>
+            <h2>PULSE-A CubeSat Structures & Optomechanics</h2>
+
+            <p class="project-description">
+              Experimental hardware built around vacuum systems, diagnostics,
+              electronics, controls, and rapid prototyping for physics and aerospace work.
+            </p>
+
+            <ul class="project-points">
+              <li>Designed and assembled custom experimental hardware.</li>
+              <li>Integrated sensors, instrumentation, controls, and data acquisition.</li>
+              <li>Iterated designs from bench testing through full-system operation.</li>
+            </ul>
+          </div>
+
+          <div class="project-gallery">
+            <div class="project-image project-image-large placeholder"><img src="assets/pulsea-1.jpg" alt="Image1"></div>
+            <div class="project-image placeholder"><img src="assets/pulsea-2.jpg" alt="Image2"></div>
+            <div class="project-image placeholder"><img src="assets/pulsea-3.jpg" alt="Image3"></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>© <span id="year"></span> Robert Pitu</p>
+    <p>Built with plain HTML & CSS.</p>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
